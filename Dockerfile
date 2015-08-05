@@ -14,7 +14,7 @@ RUN cd /src; npm install
 # Set environment
 ENV NODE_ENV production
 
-EXPOSE 3000 
+EXPOSE 80 
 
 WORKDIR /src
 CMD ["node", "server.js"]
