@@ -1,5 +1,5 @@
 
-var version = '1.0';
+var version = '1.1-BETA';
 var express = require('express');
 var requestify = require('requestify');
 var app = express();
